@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back8"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/classic"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
+    <ImageButton
+        android:id="@+id/button_classic"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:src="@drawable/survival"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:id="@+id/button_instruction"
+        android:src="@drawable/instruction"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/music"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/music"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:background="@null" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/leaderboard"
+            android:src="@drawable/share"
+            android:scaleType="fitXY"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:layout_marginLeft="47dp"
+            android:layout_marginStart="47dp" />
+
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+   <!-- <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:id="@+id/sign_out_button"
+        android:src="@drawable/signoutbutton"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@null" />-->
+
+
+</LinearLayout>
+</ScrollView>

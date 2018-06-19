@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classic"
+        android:paddingBottom="20sp"
+        android:paddingTop="5dp"
+        android:background="@drawable/box"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/c1"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Level 1"
+            android:id="@+id/level1"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:paddingTop="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/c2"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Level 2"
+            android:id="@+id/level2"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:paddingTop="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/c3"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Level 3"
+            android:id="@+id/level3"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:paddingTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/c4"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Level 4"
+            android:id="@+id/level4"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:paddingTop="5dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SURVIVAL"
+        android:textColor="#000000"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/box"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/time"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:id="@+id/timeSurvival"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:text="Time"/>
+    </LinearLayout>
+        <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/leaderboardsurvival"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/leaderboard1"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:background="@null" />
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/leaderboard2"
+            android:src="@drawable/leaderboard"
+            android:scaleType="fitXY"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:layout_marginLeft="47dp"
+            android:layout_marginStart="47dp" />
+
+    </LinearLayout>
+        -->
+
+
+ </LinearLayout>
+</RelativeLayout>

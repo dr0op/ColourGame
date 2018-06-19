@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81D4FA</color>
+    <color name="colorPrimaryDark">#039BE5</color>
+    <color name="colorAccent">#CCFF90</color>
+        <color name="black_overlay">#66000000</color>
+        <color name="yellow_bg">#ffffb732</color>
+    <color name='white_bg'>#ffffffff</color>
+    <color name="progress_red">#ffff4255</color>
+        <color name="text_label">#ff696A6D</color>
+        <color name="number_label">#ff3C3D3E</color>
+        <color name="red">#ffF91C56</color>
+        <color name="blue_gray">#ff425666</color>
+    <color name="yellow">#ffFFCE61</color>
+        <color name="darkred">#ffb4284d</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">400993250439</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.dev.droopy.colourmate</string>
+    <!-- achievement Fan -->
+    <string name="achievement_fan" translatable="false">CgkIh9m96NULEAIQEg</string>
+    <!-- achievement beginners charms -->
+    <string name="achievement_beginners_charms" translatable="false">CgkIh9m96NULEAIQDQ</string>
+    <!-- achievement Casual Player -->
+    <string name="achievement_casual_player" translatable="false">CgkIh9m96NULEAIQDg</string>
+    <!-- achievement Expert -->
+    <string name="achievement_expert" translatable="false">CgkIh9m96NULEAIQDw</string>
+    <!-- achievement Addicted -->
+    <string name="achievement_addicted" translatable="false">CgkIh9m96NULEAIQEw</string>
+    <!-- achievement Legend -->
+    <string name="achievement_legend" translatable="false">CgkIh9m96NULEAIQEA</string>
+    <!-- achievement Ultra Legends -->
+    <string name="achievement_ultra_legends" translatable="false">CgkIh9m96NULEAIQEQ</string>
+    <!-- achievement Crazy -->
+    <string name="achievement_crazy" translatable="false">CgkIh9m96NULEAIQFA</string>
+    <!-- achievement Score Bruster -->
+    <string name="achievement_score_bruster" translatable="false">CgkIh9m96NULEAIQGA</string>
+    <!-- achievement Beaten Zombies -->
+    <string name="achievement_beaten_zombies" translatable="false">CgkIh9m96NULEAIQGQ</string>
+    <!-- achievement Killer -47 -->
+    <string name="achievement_killer_47" translatable="false">CgkIh9m96NULEAIQGg</string>
+    <!-- leaderboard Classic -->
+    <string name="leaderboard_classic" translatable="false">CgkIh9m96NULEAIQCw</string>
+    <!-- leaderboard Survival -->
+    <string name="leaderboard_survival" translatable="false">CgkIh9m96NULEAIQFw</string>
+</resources>
